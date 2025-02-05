@@ -23,6 +23,7 @@ texto1=str(input("Ingresa tu frase o palabra : "))
 palindromo(texto1)
 
 #RESULTADOS 2
+#resukltados3
 #Ingresa tu frase o palabra : Anilina
 #SI es un palíndromo
 #True
