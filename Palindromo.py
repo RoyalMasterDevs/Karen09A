@@ -22,7 +22,7 @@ def palindromo(texto):
 texto1=str(input("Ingresa tu frase o palabra : "))
 palindromo(texto1)
 
-#RESULTADOS
+#RESULTADOS segunda prueba je
 #Ingresa tu frase o palabra : Anilina
 #SI es un palíndromo
 #True
