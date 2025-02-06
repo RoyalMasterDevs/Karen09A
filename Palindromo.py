@@ -19,11 +19,22 @@ def palindromo(texto):
             return False  # Si un par de caracteres no coincide, no es palíndromo
     print("SI es un palíndromo")
     return True  # Si todos coinciden, es palíndromo
-texto1=str(input("Ingresa tu frase o palabra : "))
-palindromo(texto1)
 
-#RESULTADOS segunda prueba je
-#Ingresa tu frase o palabra : Anilina
-#SI es un palíndromo
-#True
+while True:
+  texto1=str(input("Ingresa tu frase o palabra : "))
+  palindromo(texto1)
+  # Preguntar si el usuario quiere repetir
+  # Metodo strip elimina los espacion en blanco al inicio y final de la cadena
+  repetir = input("¿Quieres probar otra palabra? (s/n): ").strip().lower()
+  if repetir != 's':
+      print("Programa finalizado.")
+      break  # Salir del bucle si el usuario no quiere continuar
+
+# Ingresa tu frase o palabra : Anilina
+# SI es un palíndromo
+# ¿Quieres probar otra palabra? (s/n): s
+# Ingresa tu frase o palabra : olo
+# SI es un palíndromo
+# ¿Quieres probar otra palabra? (s/n): n
+# Programa finalizado.
 
