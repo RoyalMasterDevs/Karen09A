@@ -30,7 +30,7 @@ while True:
       print("Programa finalizado.")
       break  # Salir del bucle si el usuario no quiere continuar
 
-# Ingresa tu frase o palabra : Anilina 
+# Ingresa tu frase o palabra : Anilina
 # SI es un palíndromo
 # ¿Quieres probar otra palabra? (s/n): s
 # Ingresa tu frase o palabra : olo
